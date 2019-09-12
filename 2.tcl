@@ -55,7 +55,7 @@ $ns connect $tcp1 $sink1
 
 set ftp [new Application/FTP]
 $ftp attach-agent $tcp1
-$ftp set type_
+$ftp set type_ FTP
 
 #Schedule events
 $ns at 0.5 "$telnet start"
